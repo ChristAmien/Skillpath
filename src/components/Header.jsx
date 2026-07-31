@@ -38,8 +38,7 @@ export const Header = () => {
             </Link>
         ) : (
             
-            <a
-                href={item.href}
+            <a   href={item.href}
                 onClick={(e) => handleNavClick(e, item.href)}
                 className={className}
             >
@@ -68,9 +67,13 @@ export const Header = () => {
                         ))}
                     </ul>
 
-                    <button className='primary-btn mt-12 max-w-40 w-full'>
+                    <Link
+                        to="/login"
+                        onClick={handleClick}
+                        className='primary-btn mt-12 max-w-40 w-full text-center'
+                    >
                         Login
-                    </button>
+                    </Link>
                 </nav>
 
                 <button className='lg:hidden' onClick={handleClick}>
@@ -86,7 +89,9 @@ export const Header = () => {
                         ))}
                     </ul>
 
-                    <button className='max-lg:hidden primary-btn'>Login</button>
+                    <Link to="/login" className='max-lg:hidden primary-btn'>
+                        Login
+                    </Link>
                 </div>
             </div>
         </header>
