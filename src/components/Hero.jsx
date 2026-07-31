@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { heroLogos } from '../constants/data'
 import { RiPlayFill } from '@remixicon/react'
-import { Marquee } from './Marquee' // adapte le chemin selon où tu l'as créé
+import { Marquee } from './Marquee'
 
 export const Hero = () => {
     return (
-        <section id='home'>
+        <section id="home">
             <div className="container">
                 {/* content */}
                 <div className='mt-[50px] md:mt-20 text-center'>
@@ -44,12 +45,12 @@ export const Hero = () => {
 
                     {/* btn.wrapper */}
                     <div className='flex items-center justify-center gap-3 mt-12 flex-wrap'>
-                        <button className='primary-btn max-sm:w-[80%]'>
+                        <a href="#courses" className='primary-btn max-sm:w-[80%] text-center'>
                             Explore Courses
-                        </button>
-                        <button className='secondary-btn max-sm:w-[80%]'>
+                        </a>
+                        <Link to="/pricing" className='secondary-btn max-sm:w-[80%] text-center'>
                             View Pricing
-                        </button>
+                        </Link>
                     </div>
 
                     {/* client logo */}

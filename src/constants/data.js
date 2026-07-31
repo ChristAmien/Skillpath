@@ -10,10 +10,16 @@ import {
 export const navItems = [
     { id: 1, label: "Home", href: "/#home" },
     { id: 2, label: "Courses", href: "/#courses" },
-    { id: 3, label: "About Us", href: "/#about" },
+    { id: 3, label: "About Us", href: "/about" },
     { id: 4, label: "Pricing", href: "/pricing" },
     { id: 5, label: "Contact", href: "/#contact" },
 ];
+
+export const subNavItems = [
+    { id: 'company', label: 'Company' },
+    { id: 'achievements', label: 'Achievements' },
+    { id: 'goals', label: 'Our Goals' },
+]
 
 export const heroLogos = [
     { id: 1, img: "/images/logo-1.png", width: 56 },
@@ -214,6 +220,30 @@ export const footerLists = [
         ],
     },
 ];
+
+export const aboutStats = [
+    {
+        id: 1,
+        value: '10+',
+        label: 'Years of Experience',
+    },
+    {
+        id: 2,
+        value: '25k+',
+        label: 'Students Trained',
+    },
+    {
+        id: 3,
+        value: '98%',
+        label: 'Satisfaction Rate',
+    },
+]
+
+export const aboutGoals = [
+    'Deliver practical, industry-relevant skills',
+    'Support learners at every stage of their journey',
+    'Build a community of passionate creators',
+]
 
 export const socialIcons = [
     {
