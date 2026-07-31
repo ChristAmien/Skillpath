@@ -9,7 +9,7 @@ export const Benefits = () => {
                 {/* Title */}
                 <Title 
                     title='Benefits' 
-                    text='Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.' 
+                    text='Gain practical skills through high-quality online courses designed by industry professionals. Learn at your own pace, access engaging learning resources anytime, and build the confidence you need to achieve your academic and career goals.' 
                     link='View All' 
                 />
                 {/* Card wrapper  */}
@@ -18,7 +18,7 @@ export const Benefits = () => {
                         // card
                         <div className="bg-white p-10 flex flex-col rounded-xl">
                             {/* icon */}
-                            <div className="">
+                            <div className="bg-orange-75 w-[55%] h-24 flex items-center justify-center mx-auto rounded-xl mb-8">
                                 <img 
                                     src={items.icon} 
                                     alt={items.title}
@@ -27,13 +27,13 @@ export const Benefits = () => {
                                 />
                             </div>
 
-                            <div>
+                            <div className="mb-4 text-center space-y-3.5">
                                 <h4>{items.title}</h4>
                                 <p>{items.text}</p>
                             </div>
 
                             {/* button */}
-                            <button>
+                            <button className="mt-auto ml-auto border border-white-95 w-14 h-14 flex items-center justify-center rounded-md text-orange-50 transition-colors hover:bg-orange-50 hover:text-white">
                                 <RiArrowRightUpLine size={28}/>
                             </button>
                         </div>
