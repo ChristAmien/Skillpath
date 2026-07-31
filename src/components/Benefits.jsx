@@ -4,7 +4,7 @@ import { RiArrowRightUpLine } from "@remixicon/react"
 
 export const Benefits = () => {
     return (
-        <section className="section">
+        <section className="section" id="benefits">
             <div className="container">
                 {/* Title */}
                 <Title 

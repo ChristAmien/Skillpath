@@ -3,74 +3,26 @@ import {
     RiMailSendFill,
     RiUserLocationLine,
     RiFacebookBoxFill,
-    RiTwitterFill,
+    RiInstagramFill,
     RiLinkedinFill,
 } from "@remixicon/react";
 
 export const navItems = [
-    {
-        id: 1,
-        label: "Home",
-        href: "#home",
-    },
-    {
-        id: 2,
-        label: "Courses",
-        href: "#courses",
-    },
-    {
-        id: 3,
-        label: "About Us",
-        href: "#about",
-    },
-    {
-        id: 4,
-        label: "Pricing",
-        href: "#pricing",
-    },
-    {
-        id: 5,
-        label: "Contact",
-        href: "#contact",
-    },
+    { id: 1, label: "Home", href: "/#home" },
+    { id: 2, label: "Courses", href: "/#courses" },
+    { id: 3, label: "About Us", href: "/#about" },
+    { id: 4, label: "Pricing", href: "/pricing" },
+    { id: 5, label: "Contact", href: "/#contact" },
 ];
 
 export const heroLogos = [
-    {
-        id: 1,
-        img: "/images/logo-1.png",
-        width: 56,
-    },
-    {
-        id: 2,
-        img: "/images/logo-2.png",
-        width: 82,
-    },
-    {
-        id: 3,
-        img: "/images/logo-3.png",
-        width: 57,
-    },
-    {
-        id: 4,
-        img: "/images/logo-4.png",
-        width: 64,
-    },
-    {
-        id: 5,
-        img: "/images/logo-5.png",
-        width: 78,
-    },
-    {
-        id: 6,
-        img: "/images/logo-6.png",
-        width: 75,
-    },
-    {
-        id: 7,
-        img: "/images/logo-7.png",
-        width: 65,
-    },
+    { id: 1, img: "/images/logo-1.png", width: 56 },
+    { id: 2, img: "/images/logo-2.png", width: 82 },
+    { id: 3, img: "/images/logo-3.png", width: 57 },
+    { id: 4, img: "/images/logo-4.png", width: 64 },
+    { id: 5, img: "/images/logo-5.png", width: 78 },
+    { id: 6, img: "/images/logo-6.png", width: 75 },
+    { id: 7, img: "/images/logo-7.png", width: 65 },
 ];
 
 export const benefitItems = [
@@ -208,8 +160,7 @@ export const faqItems = [
     },
     {
         id: 4,
-        title:
-            "Are the courses self-paced or do they have specific start and end dates?",
+        title: "Are the courses self-paced or do they have specific start and end dates?",
         text: "Absolutely! You can enroll in multiple courses simultaneously and access them at your convenience.",
     },
     {
@@ -228,17 +179,17 @@ export const contactInfo = [
     {
         id: 1,
         icon: RiPhoneFill,
-        label: "hello@skillbridge.com",
+        label: "amienfabien@gmail.com",
     },
     {
         id: 2,
         icon: RiMailSendFill,
-        label: "+91 91813 23 2309",
+        label: "+225 0706528067",
     },
     {
         id: 3,
         icon: RiUserLocationLine,
-        label: "Somewhere in the World",
+        label: "Bingerville, Abidjan, Côte d'Ivoire",
     },
 ];
 
@@ -268,13 +219,16 @@ export const socialIcons = [
     {
         id: 1,
         icon: RiFacebookBoxFill,
+        href: "https://www.facebook.com/profile.php?id=61565496757742",
     },
     {
         id: 2,
-        icon: RiTwitterFill,
+        icon: RiInstagramFill,
+        href: "https://www.instagram.com/christ.vmienn2?igsh=MTV4YW4xa2Vlc2J6ZQ==",
     },
     {
         id: 3,
         icon: RiLinkedinFill,
+        href: "https://www.linkedin.com/in/amien-christ-143801367",
     },
 ];

@@ -75,13 +75,14 @@ export const Testimonials = () => {
                 <div className='flex items-center gap-4 justify-center mt-8'>
                     <button
                         ref={(node) => setPrevEl(node)}
-                        className='bg-orange-70 w-12 h-12 fles items-center justify-center rounded-xl hover:bg-orange-75 transition active:bg-orange-75/80'
+                        className='bg-orange-70 w-12 h-12 flex items-center justify-center rounded-xl hover:bg-orange-75 hover:text-white transition active:bg-orange-75/80 disabled:opacity-30 disabled:cursor-not-allowed'
                     >
                         <RiArrowLeftLine size={30} />
                     </button>
                     <button
                         ref={(node) => setNextEl(node)}
-                        className='bg-orange-70 w-12 h-12 fles items-center justify-center rounded-xl hover:bg-orange-75 transition active:bg-orange-75/80'                    >
+                        className='bg-orange-70 w-12 h-12 flex items-center justify-center rounded-xl hover:bg-orange-75 hover:text-white transition active:bg-orange-75/80 disabled:opacity-30 disabled:cursor-not-allowed'
+                    >
                         <RiArrowRightLine size={30} />
                     </button>
                 </div>

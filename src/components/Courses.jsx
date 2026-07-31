@@ -2,7 +2,7 @@ import { Title } from "./Title"
 import { coursesSecItems } from "../constants/data"
 export const Courses = () => {
     return (
-        <section className="section">
+        <section className="section" id="courses">
             <div className="container">
                 <Title 
                     title="Our Courses"

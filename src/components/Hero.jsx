@@ -5,7 +5,7 @@ import { Marquee } from './Marquee' // adapte le chemin selon où tu l'as créé
 
 export const Hero = () => {
     return (
-        <section>
+        <section id='home'>
             <div className="container">
                 {/* content */}
                 <div className='mt-[50px] md:mt-20 text-center'>
